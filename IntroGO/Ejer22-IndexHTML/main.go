@@ -6,7 +6,7 @@ import (
 
 func main() {
 	http.HandleFunc("/", home)
-	http.HandleFunc("/login", home)
+	//http.HandleFunc("/login", home) responder a diferentes intrucciones.
 	http.ListenAndServe(":3000", nil)
 }
 
